@@ -6,8 +6,8 @@
 "map  j 10j
 
 " Remove key mapping in normal mode
-" removing command-f to reveal default search key
-unmap <M-f>
+" mapping command-f to reveal default search key
+map <M-f> /
 
 " Change key mapping in insert mode
 imap <M-h> <M-w>
